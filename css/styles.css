@@ -1,0 +1,110 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/* Cabeçalho */
+header {
+    background-color: black;    
+    color: rgb(232, 225, 202);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid rgb(232, 225, 202);
+}
+
+/* Grid de Single */
+.container {
+    background-color: #d8d7d7;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    background-color: #d8d7d7;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.card { 
+    width: 100%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('../img/mj11.jpg');
+}
+
+#img-2 {
+    background-image: url('../img/mj22.jpg');   
+}
+
+#img-3 {
+    background-image: url('../img/mj33.jpg');    
+}
+
+#img-4 {
+    background-image: url('../img/mj44.jpg');  
+}
+
+#img-5 {
+    background-image: url('../img/mj55.jpg'); 
+}
+
+#img-6 {
+    
+    background-image: url('../img/mj66.jpg'); 
+}
+
+h3 {
+    margin-bottom: 10px;
+    color:rgb(133, 6, 6);
+    border-left: 5px solid rgb(133, 6, 6);
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(2, 2, 2);
+    color:rgb(248, 247, 244);
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(141, 11, 11);
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: rgb(232, 225, 202);
+    border-top: 3px solid rgb(232, 225, 202);
+    text-align: center;
+    padding: 80px;
+}
